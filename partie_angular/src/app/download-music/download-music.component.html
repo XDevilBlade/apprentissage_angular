@@ -1,0 +1,23 @@
+<div class="row">
+        <div class="col">
+            <h2 id="title">Download musique</h2>
+        </div>
+</div>
+
+<h5 id="msg"></h5>
+
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <input type="text" id="urlVideo" class="form-control" name="urlVideo" ngModel required>
+    <div class="col-sm-12 text-center">
+        <div id="previewYoutube"></div>
+        <button id="btnDownload" class="btn btn-primary btn-sm" type="submit" [disabled]="f.invalid">Télécharger</button>
+    </div>
+</form>
+
+<div class="modal fade" id="loadMe">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <img class="img-responsive loadImg" src="../../assets/images/loading/tenor.gif" width="300px" height="300px" alt="img not found">
+      </div>
+    </div>
+</div>

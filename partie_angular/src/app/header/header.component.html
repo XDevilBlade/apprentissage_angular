@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" routerLink="">
+      <img src="../../assets/images/menu/logoWitcher.jpg" width="50" height="45" alt="img not found">
+      <h5 class="navbar-text">Portfolio</h5>
+    </a>      
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>				
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="nav">
+        <li class="nav-item" >
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Musique
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="nav-link" routerLink="lecteur_audio" routerLinkActive="active" >Lecteur MP3</a>
+                  <a class="nav-link" routerLink="download_audio" routerLinkActive="active" >Download musique</a>
+                  <a class="nav-link" routerLink="upload_audio" routerLinkActive="active" >Upload musique</a>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link">Reconnaissance vocale</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link">?</a>
+        </li>
+      </ul>
+    </div>
+    
+</nav>

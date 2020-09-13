@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { NotifierContainerComponent, NotifierNotificationComponent, NotifierConfig, notifierCustomConfigFactory, notifierDefaultConfigFactory, NotifierModule, NotifierOptionsToken, NotifierConfigToken, NotifierService } from './index';
+export { NotifierAnimationService as ɵc } from './lib/services/notifier-animation.service';
+export { NotifierQueueService as ɵa } from './lib/services/notifier-queue.service';
+export { NotifierTimerService as ɵb } from './lib/services/notifier-timer.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhci1ub3RpZmllci5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2FuZ3VsYXItbm90aWZpZXIvIiwic291cmNlcyI6WyJhbmd1bGFyLW5vdGlmaWVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSxpT0FBYyxTQUFTLENBQUM7QUFFeEIsT0FBTyxFQUFDLHdCQUF3QixJQUFJLEVBQUUsRUFBQyxNQUFNLDJDQUEyQyxDQUFDO0FBQ3pGLE9BQU8sRUFBQyxvQkFBb0IsSUFBSSxFQUFFLEVBQUMsTUFBTSx1Q0FBdUMsQ0FBQztBQUNqRixPQUFPLEVBQUMsb0JBQW9CLElBQUksRUFBRSxFQUFDLE1BQU0sdUNBQXVDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEdlbmVyYXRlZCBidW5kbGUgaW5kZXguIERvIG5vdCBlZGl0LlxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vaW5kZXgnO1xuXG5leHBvcnQge05vdGlmaWVyQW5pbWF0aW9uU2VydmljZSBhcyDJtWN9IGZyb20gJy4vbGliL3NlcnZpY2VzL25vdGlmaWVyLWFuaW1hdGlvbi5zZXJ2aWNlJztcbmV4cG9ydCB7Tm90aWZpZXJRdWV1ZVNlcnZpY2UgYXMgybVhfSBmcm9tICcuL2xpYi9zZXJ2aWNlcy9ub3RpZmllci1xdWV1ZS5zZXJ2aWNlJztcbmV4cG9ydCB7Tm90aWZpZXJUaW1lclNlcnZpY2UgYXMgybVifSBmcm9tICcuL2xpYi9zZXJ2aWNlcy9ub3RpZmllci10aW1lci5zZXJ2aWNlJzsiXX0=
